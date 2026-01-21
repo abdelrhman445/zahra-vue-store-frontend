@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://zahra-honey-storebackend--falconamrici.replit.app/api',
+  withCredentials: true
 });
 
 // إضافة التوكن لكل طلب تلقائياً
