@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://zahra-honey-storebackend--falconamrici.replit.app',
+  baseURL: 'https://zahra-honey-storebackend--falconamrici.replit.app/api',
   withCredentials: true
 });
 
